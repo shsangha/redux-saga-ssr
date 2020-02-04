@@ -1,0 +1,6 @@
+{
+  "ignore": ["node_modules"],
+  "watch": ["config", "src/server"],
+  "exec": "npx babel-node --extensions \".ts,.tsx\" src/server/index.ts",
+  "ext": "ts"
+}
