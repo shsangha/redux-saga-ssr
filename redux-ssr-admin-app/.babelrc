@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions"]
+        },
+        "debug": false
+      }
+    ],
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@loadable/babel-plugin",
+    "@babel/plugin-transform-runtime",
+    "react-hot-loader/babel",
+    "@babel/plugin-proposal-object-rest-spread"
+  ]
+}
