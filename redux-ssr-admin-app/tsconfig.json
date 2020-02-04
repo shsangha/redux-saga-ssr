@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6",
+    "pretty": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "stripInternal": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "typeRoots": ["node_modules", "./types"]
+  },
+  "include": ["./src/", "./types"],
+  "exclude": ["node_modules", "dist", "**/*.json"]
+}
